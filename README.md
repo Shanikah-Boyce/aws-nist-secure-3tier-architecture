@@ -58,6 +58,7 @@ To test the rule:
 2.	Created a new Traffic Mirror target using an EC2 ENI.
 3.	Returned to the AWS Config console, selected the new rule, and clicked "Re-evaluate".
 Upon refreshing the page, the rule's status changed from Compliant to Noncompliant, confirming that the detection mechanism functioned as intended.
+
 ![image](https://github.com/user-attachments/assets/f9b0e696-e7c3-4f3a-a9cb-ce3559119efb)
 
 ## Key Takeaways and Personal Reflection
@@ -68,6 +69,7 @@ To maintain strong security and compliance:
 - CloudWatch Logs, Alarms, and SNS were utilized to generate alerts for critical incidents.
 - Logging standards were upheld through Config.
 - IAM policies were tightened, with enhanced oversight via Config, CloudTrail, and traffic mirroring detection.
+
 The insights gained have significantly enhanced my capability to design secure, scalable cloud infrastructures and will directly influence future initiatives focused on strengthening enterprise-level security frameworks.
 
  
